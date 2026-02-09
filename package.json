@@ -1,9 +1,7 @@
 {
   "name": "uz-run-server",
   "version": "1.0.0",
-  "description": "Uz-Run Cloud Platform",
   "type": "module",
-  "main": "src/index.ts",
   "dependencies": {
     "express": "^4.22.1"
   },
@@ -11,5 +9,9 @@
     "@types/express": "^5.0.0",
     "@types/node": "^22.0.0",
     "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
   }
 }
