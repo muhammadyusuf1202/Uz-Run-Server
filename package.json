@@ -2,16 +2,8 @@
   "name": "uz-run-server",
   "version": "1.0.0",
   "type": "module",
+  "main": "src/index.js",
   "dependencies": {
     "express": "^4.22.1"
-  },
-  "devDependencies": {
-    "@types/express": "^5.0.0",
-    "@types/node": "^22.0.0",
-    "typescript": "^5.0.0"
-  },
-  "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js"
   }
 }
