@@ -1,0 +1,16 @@
+{
+  "name": "uz-run-server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "express": "^4.22.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0"
+  }
+}
